@@ -2,7 +2,7 @@ Quote Project
 This project is a web application built with React, Node.js, and Express. It utilizes the Quotabli API to fetch and display quotes randomly. Users can also search for quotes using author names.
 
 Features:
-Random quote display: The application displays quotes randomly fetched from the Quotabli API upon loading.
+Random quote display: The application displays quotes randomly on pressing generate random quotes
 Author search: Users can search for quotes by entering the name of the author. The application fetches quotes associated with the specified author.
 Responsive design: The user interface is designed to be responsive, ensuring a seamless experience across different devices.
 
