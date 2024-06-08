@@ -1,0 +1,21 @@
+
+{
+    "version": 2,
+    "name": "backend",
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/quote",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/quote/(.*)",
+        "dest": "/index.js"
+      }
+    ]
+  }
